@@ -15,7 +15,7 @@ steps:
   retryCountOnTaskFailure: 1
   inputs:
     azureSubscription: $(azureServiceConnection)
-    scriptType: ps
+    scriptType: pscore
     scriptLocation: inlineScript
     inlineScript: |
       echo "*** Check if Resource Group ${{ parameters.resourceGroupName }} exists"

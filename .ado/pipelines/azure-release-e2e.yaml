@@ -7,7 +7,7 @@ pr: none
 pool:
   name: Default
   demands:
-   - agent.name -equals hosted-1 
+   - agent.name -equals linux-2 
 
 parameters:
 
